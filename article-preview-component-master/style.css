@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    height: 270px;
+    min-width: 270px;
+    width: 730px;
+    min-width: 730px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    border: none;
+}
+
+.image-wrapper {
+    width: 38%;
+    height: 100%;
+    overflow: hidden;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.image-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: left;
+}
+
+.text-content {
+    width: 63%;
+    height: 100%;
+    background-color: white;
+    padding: 2rem 2.3rem 2rem 2.3rem;
+    position: relative;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.text-content h1 {
+    color: hsl(217, 19%, 35%);
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.text-content p {
+    color: hsl(212, 23%, 69%);
+}
+
+
+
+.author-info img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    margin-right: 14px;
+}
+
+
+.author-info {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.name-author-and-date {
+    display: flex;
+    flex-direction: column;
+}
+
+#author-name {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.author-info button {
+    font-size: 18px;
+    background-color: transparent;
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+    border: none;
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(217, 19%, 35%);
+    cursor: pointer;
+    position: absolute;
+    right: 57px;
+    bottom: 29px;
+}
+
+.share-section {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    width: 250px;
+    height: 45px;
+    right: -52px;
+    bottom: 85px;
+    border-radius: 10px;
+}
+
+
+
+.color {
+    color: hsl(217, 19%, 35%);
+    color: hsl(214, 17%, 51%);
+    color: hsl(212, 23%, 69%);
+    color: hsl(210, 46%, 95%);
+}
+
+
+
+
+
+.attribution {
+    display: none;
+}
+
+
