@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.main-container {
+    width: 970px;
+    height: 410px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-card {
+    width: 210px;
+    height: 100%;
+    position: relative;
+}
+
+.header-info {
+    width: 100%;
+    z-index: 1;
+    height: 68%;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 13px;
+    position: absolute;
+}
+
+.header-info img {
+    width: 70px;
+    border: 3px solid white;
+    border-radius: 70px;
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+    margin-bottom: 1.32rem;
+}
+
+.header-info  p {
+    color: hsl(236, 100%, 87%);
+    font-size: 14.2px;
+    margin-left: 1.2rem;
+}
+
+
+.header-info  h2 {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-left: 1.2rem;
+}
+
+.header-time {
+    padding-top: 34px;
+    padding-left: 1.2rem;
+    width: 100%;
+    height: 40%;
+    background-color:hsl(235, 46%, 20%);
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    position: absolute;
+    bottom: 0;
+}
+
+.header-time p {
+    color: hsl(235, 45%, 61%);
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 14.5px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.header-time p:hover {
+    color: hsl(236, 100%, 87%);
+}
+
+
+
+.two-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.card {
+    background-color: rgb(204, 21, 21);
+    width: 230px;
+    height: 200px;
+}
+
+
+
+
+
+
+.attribution {
+    display: none;
+}
+
+
+
+
+color {
+    /* Primary */
+
+    color: hsl(246, 80%, 60%);
+    color: hsl(15, 100%, 70%);
+    color: hsl(195, 74%, 62%);
+    color: hsl(348, 100%, 68%);
+    color: hsl(145, 58%, 55%);
+    color: hsl(264, 64%, 52%);
+    color: hsl(43, 84%, 65%);
+
+    /* Neutral */
+
+    color: hsl(226, 43%, 10%);
+    color: hsl(235, 46%, 20%);
+    color: hsl(235, 45%, 61%);
+    color: hsl(236, 100%, 87%);
+
+}
+
+
