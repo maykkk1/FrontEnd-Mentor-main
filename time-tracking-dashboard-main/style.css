@@ -19,9 +19,8 @@ body {
 
 
 .main-container {
-    width: 970px;
-    height: 410px;
-    background-color: bisque;
+    width: 900px;
+    height: 418px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -101,14 +100,55 @@ body {
 
 
 .card {
-    background-color: rgb(204, 21, 21);
-    width: 230px;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
     height: 200px;
+    border-radius: 13px;
+    overflow: hidden;
+    position: relative;
 }
 
 
+.card-border {
+    width: 100%;
+    height: 30%;
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+}
 
+.card-content {
+    width: 100%;
+    height: 81%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    position: absolute;
+    bottom: 0;
+    background-color:hsl(235, 46%, 20%);
+    padding: 1.3rem;
+    color: white;
+    font-weight: 300;
+}
 
+.card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.card-time {
+    margin-top: 1.3rem;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.card-last-week {
+    font-size: .75rem;
+    font-weight: 500;
+    color: hsl(234, 46%, 74%);
+}
 
 
 .attribution {
