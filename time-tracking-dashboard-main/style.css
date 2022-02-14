@@ -85,9 +85,7 @@ body {
     cursor: pointer;
 }
 
-.header-time p:hover {
-    color: hsl(236, 100%, 87%);
-}
+
 
 
 
@@ -111,12 +109,80 @@ body {
 
 
 .card-border {
+    display: flex;
     width: 100%;
     height: 30%;
     background-color: orangered;
     position: absolute;
     top: 0;
 }
+
+.card-border img {
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+#work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+#work img {
+    position: absolute;
+    top: -10px;
+    right: 2%;
+    width: 65px;
+}
+
+#play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+#play img {
+    margin-right: 7%;
+    width: 65px;
+}
+
+#study {
+    background-color: hsl(348, 100%, 68%);
+}
+#study img {
+    position: absolute;
+    top: -7px;
+    right: 2%;
+    width: 65px;
+
+}
+
+#exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+#exercise img {
+    position: absolute;
+    top: -5px;
+    right: 2%;
+    width: 75px;
+}
+
+#social {
+    background-color: hsl(264, 64%, 52%);
+}
+#social img {
+    position: absolute;
+    top: -2px;
+    right: 2%;
+    width: 70px;
+}
+#self-care {
+    background-color: hsl(43, 84%, 65%);
+}
+
+#self-care img {
+    position: absolute;
+    top: -7px;
+    right: 2%;
+    width: 55px;
+}
+
 
 .card-content {
     width: 100%;
@@ -142,13 +208,19 @@ body {
     margin-top: 1.3rem;
     font-size: 3rem;
     margin-bottom: .5rem;
+    transition: 400ms;
 }
 
-.card-last-week {
+.card-previous-time {
     font-size: .75rem;
     font-weight: 500;
     color: hsl(234, 46%, 74%);
 }
+
+
+
+
+
 
 
 .attribution {
