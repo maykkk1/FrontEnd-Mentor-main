@@ -15,6 +15,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
 
@@ -24,6 +25,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    transition: all 400ms;
+    min-width: 320px;
 }
 
 .header-card {
@@ -202,6 +205,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     font-weight: 500;
+    align-items: center;
 }
 
 .card-time {
@@ -220,33 +224,116 @@ body {
 
 
 
-
-
-
 .attribution {
-    display: none;
+    position: absolute;
+    bottom: 0;
 }
 
 
 
+@media (max-width: 870px) {
+    body {
+        width: 100%;
+        height: max-content;
+        align-items: center;
+    }
+    .main-container {
+        margin-top: 80px;
+        flex-direction: column;
+        max-width: 500px;
+        width: 90%;
+        height: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-card {
+        width: 100%;
+        height: 240px;
+        margin-bottom: 30px;
+    }
 
-color {
-    /* Primary */
+    .header-info {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 66%;
+    }
 
-    color: hsl(246, 80%, 60%);
-    color: hsl(15, 100%, 70%);
-    color: hsl(195, 74%, 62%);
-    color: hsl(348, 100%, 68%);
-    color: hsl(145, 58%, 55%);
-    color: hsl(264, 64%, 52%);
-    color: hsl(43, 84%, 65%);
+    .header-info br {
+        display: none;
+    }
+    
+    
+    .header-info  p {
+        font-size: 14.2px;
+        margin-left: 1.2rem;
+    }
+    
+    
+    .header-info  h2 {
+        font-size: 1.7rem;
+        margin-left: 1.2rem;
+    }
 
-    /* Neutral */
+    .header-time {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5px;
+        padding-left: 0;
+    }
+    
+    .header-time p {
+        font-size: 18px;
+    }
 
-    color: hsl(226, 43%, 10%);
-    color: hsl(235, 46%, 20%);
-    color: hsl(235, 45%, 61%);
-    color: hsl(236, 100%, 87%);
+    .two-cards {
+        width: 100%;
+        height: 390px;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        height: 180px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-title {
+        display: flex;
+        font-size: 1.2rem;
+    }
+
+    .ellipsis {
+        font-size: 2rem;
+    }
+
+    .card-time-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card-time {
+        margin: 0;
+    }
+
+    .card-previous-time {
+        font-size: .9rem;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+    }
+
 
 }
 
